@@ -25,7 +25,7 @@ namespace HELLO_WORLD
         private void Button1_Click(object sender, EventArgs e)
         {
           
-            MessageBox.Show("Hello " + txxtBx1Name.Text);
+            MessageBox.Show("hello " + txxtBx1Name.Text + " and " + txxtBx2Name.Text);
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
